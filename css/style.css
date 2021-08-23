@@ -1,0 +1,836 @@
+/* 1 rem es igual a 10 px */
+
+html {
+        font-size: 62,5%;
+}
+
+* {
+        margin: 0rem;
+        padding: 0rem;
+ 
+        
+}
+
+/* condiciones generales */
+
+body{
+        background-image: radial-gradient(circle, #b1b7b7, #bfc4c5, #cccfcf, #b9babb, #c4c4c7, #dddbdb, #c5c5c7, #c5c5c5, #d1d2d4, #b8b6b6, #aaaeb0, #979d9d);
+}
+
+header {
+        padding: 0rem;
+        margin: 0rem;
+        margin-top: 0rem;
+        
+}
+
+main {
+        width: 100%;
+        color:  white;
+        opacity: 1;
+        font-family: 'Montserrat', sans-serif;;
+        font-style: normal;
+        word-spacing: normal;
+        line-height: 40px;
+        text-align: justify;
+
+}
+
+
+img{
+        border-radius: 25px;
+        
+}
+
+.textCenter { 
+        text-align: center;
+}
+
+.header__logo {
+        margin-top: -5rem;
+        margin-left: 5rem;
+}
+
+/* menu de navegación */
+
+.menu {
+        font-family: Helvetica ,Arial,sans-serif;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        list-style: none;
+        line-height: 4rem;
+        margin-top: -10rem;
+        margin-right: 5rem;
+        
+}
+
+.menu-1 {
+        margin-right: 10px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.918);
+        font-weight: bolder;
+}
+
+.menu-1:active {
+        text-decoration: none;
+}
+
+.menu-1:checked {
+        text-decoration: none;
+}
+
+.menu-1:hover{
+        color: #101010;
+}
+/* INDEX  */
+
+.mainIndex { 
+        width: 1500px;
+        height: 2000px;
+        margin: 10px;
+        
+}
+
+.item1 {
+        margin-top: 4rem;
+        margin-left: 4rem;
+        padding: 2rem;
+}
+
+.item1 h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        margin-bottom: 2rem;
+}
+
+.item2 {
+       margin-left: 9rem;
+       margin-top: 4rem;
+       padding: 1rem;
+
+}
+
+.item2 img { 
+        width: 400px;
+}
+
+.item3 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        margin-bottom: 1rem;
+        margin-top: 7rem;
+ }
+
+.item4 {
+        height: 90px;
+        margin: 1rem 1rem 3rem 4rem;
+        padding: 1rem;
+        font-size: 30px;
+}
+.item4 .title {
+        margin-bottom: 1rem;
+        text-align: center;
+}
+.item5 {
+        height: 90px;
+        margin: 1rem 4rem 3rem 1rem;
+        margin-right: 4rem;
+        margin-left: 1rem;
+        padding: 1rem;
+        font-size: 30px;
+}
+.item5 .title {
+        margin-bottom: 1rem;
+        text-align: center;
+}
+.item6 {
+        height: 90px;
+        margin: 1rem 1rem 3rem 4rem;
+        padding: 1rem;
+        font-size: 30px;
+}
+.item6 .title {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+}
+
+.item7 {
+        height: 90px;
+        margin-right: 4rem;
+        margin-left: 1rem;
+        padding: 1rem;
+        font-size: 30px;
+}
+.item7 .title {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+}
+.item8 {
+        height: 90px;
+        margin-left: 4rem;
+        margin-right: 1rem;
+        padding: 1rem;
+        font-size: 30px;
+}
+.item8 .title {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+}
+.item9 {
+        height: 90px;
+        margin-right: 4rem;
+        margin-left: 1rem;
+        padding: 1rem;
+        font-size: 30px;
+}
+
+.item9 .title {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+}
+
+.lema {
+        text-align: center;
+        font-size: 20px;
+        margin: 2rem;
+        padding: 2rem;
+}
+
+/* EQUIPO  */
+
+.equipos {
+        background-color: #fff;
+        color: #101010;
+}
+.mainEquipo { 
+        width: 1500px;
+        height: 2500px;
+        margin: 10px;
+        margin-bottom: 3rem;
+}
+
+.mainEquipo .title h1 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 60px;
+        text-decoration: wavy;
+        margin-top: 4rem;
+        
+}
+
+/* primera sección  */
+
+
+.mainEquipo .foto1 { 
+        margin: -15rem 2rem 2rem 5rem;
+}
+
+.foto1 img { 
+        width: 500px;
+}
+
+.mainEquipo .foto2 { 
+        margin: -15rem 2rem 2rem 4rem;
+}
+
+.foto2 img { 
+        width: 500px;
+}
+
+.mainEquipo .texto1 {
+        margin: -15rem 4rem 2rem 4rem;
+        padding: 1rem;
+        
+        width: 500px;
+}
+
+.mainEquipo .texto1 h2 {
+        margin-bottom: 2rem; 
+        text-align: center;
+        font-size: 35px;
+}
+.mainEquipo .texto1 h3 {
+        margin: 1rem 0 1rem 0;
+}
+.mainEquipo .texto2 {
+        margin: -15rem 4rem 2rem 4rem;
+        width: 500px;
+}
+.mainEquipo .texto2 h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: 35px;
+}
+.mainEquipo .texto2 h3 {
+        margin: 1rem 0 1rem 0;
+}
+
+/* segunda sección */
+
+.mainEquipo .foto3 { 
+        margin-top: -6rem;
+        margin-left: 6rem;
+}
+
+.foto3 img { 
+        width: 500px;
+}
+
+.mainEquipo .foto4 { 
+        margin-top: -6rem;
+        margin-left: 10rem;
+}
+
+.foto4 img { 
+        width: 500px;
+}
+.mainEquipo .texto3 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 500px;
+}
+
+.mainEquipo .texto3 h2 {
+        margin-bottom: 2rem;
+        margin-top: -10rem;
+        text-align: center;
+        font-size: 35px;
+}
+.mainEquipo .texto3 h3 {
+        margin: 1rem 0 1rem 0;
+}
+.mainEquipo .texto4 {
+        margin-top: -9rem;
+        margin-left: 9rem;
+        width: 500px;
+}
+.mainEquipo .texto4 h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: 35px;
+}
+.mainEquipo .texto4 h3 {
+        margin: 1rem 0 1rem 0;
+}
+.mainEquipo .foto5 img {
+        width: 800px;
+        height: 500px;
+}
+
+.mainEquipo .foto5 {
+        margin-left: 4rem;
+        margin-bottom: 6rem;
+        margin-right: 15rem;
+}
+.mainEquipo .texto5 {
+        text-align: center;
+        font-size: 50px;
+        line-height: 8rem;
+        
+        
+}
+
+.mainDiseño {
+        background-color: #020202;
+        color: #fff;
+        font-size: 50px;
+}
+
+.mainDiseño .exploramos {
+        text-align: center;
+        margin: 2rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+}
+.mainDiseño .descubrimos {
+        text-align: center;
+        margin: 2rem;
+        margin-bottom: 4rem;
+}
+.mainDiseño .diseñamos {
+        text-align: center;
+        margin: 2rem;
+        margin-bottom: 4rem;
+}
+.mainDiseño .construimos {
+        text-align: center;
+        margin: 2rem;
+        margin-bottom: 4rem;
+
+}
+
+
+
+/* MOVILES */
+
+.movil {
+        background-color: #fff;
+        color: #101010;
+       
+}
+
+.mainProceso { 
+        color: #fff;
+        background-color: #101010;
+
+}
+
+.mainMovil h1 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 40px;
+        text-decoration: wavy;
+        margin-top: 4rem;
+        padding-top: 4rem;
+        margin-bottom: 4rem;
+        
+}
+
+.app1 img {
+        width: 150px;
+        margin-left: 8rem;
+        margin-top: -20rem;
+}
+
+.app1 h3 {
+        margin: 1rem;
+        margin-left: 3rem;
+}
+
+.app1 p {
+        width: 300px;
+        margin-left: 3rem;
+}
+.app2 img {
+        width: 200px;
+        margin-left: 3rem;
+        margin-top: -12rem;
+}
+.app2 h3 {
+        margin: 1rem;
+        margin-left: 3rem;
+}
+
+.app2 p {
+        width: 200px;
+        margin-left: 3rem;
+}
+.app3 img {
+        width: 200px;
+        margin-left: 1rem;
+        margin-top: -15rem;
+}
+.app3 h3 {
+        width: 300px;
+        text-align: center;
+        margin-top: 1rem ;
+        margin-left: -3rem;
+}
+
+.app3 p {
+        width: 300px;
+        margin-left: -2rem;
+}
+.app4 img {
+        width: 200px;
+        margin-left: 1rem;
+        margin-top: -10rem;
+        margin-right: 2rem;
+}
+.app4 h3 {
+        width: 250px;
+        text-align: center;
+        margin-top: 1rem ;
+        margin-left: -1rem;
+        margin-right: 2rem;
+}
+
+.app4 p {
+        width: 300px;
+        margin-left: -2rem;
+        margin-right: 2rem;
+}
+
+.app5 img {
+        width: 200px;
+        margin-left: 6rem;
+        margin-top: -1rem;
+}
+
+.app5 h3 {
+        margin: 1rem;
+        margin-left: 4rem;
+}
+
+.app5 p {
+        width: 300px;
+        margin-left: 3rem;
+}
+.app6 img {
+        width: 200px;
+        margin-left: 7rem;
+        margin-top: -3rem;
+}
+.app6 h3 {
+        margin-top: -1rem;;
+        margin-left: 3rem;
+}
+
+.app6 p {
+        width: 300px;
+        margin-left: 4rem;
+}
+.app7 img {
+        width: 150px;
+        margin-top: -2rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+}
+.app7 h3 {
+        margin-top: 1rem;;
+        margin-left: -2rem;
+        margin-right: 2rem;
+}
+
+.app7 p {
+        width: 300px;
+        margin-left: -5rem;
+        margin-right: 2rem;
+}
+
+
+ /* segunda seccion de apps moviles */
+
+.mainProceso h2 { 
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 60px;
+        text-decoration: wavy;
+        margin-top: 3rem;
+        padding-top: 2rem;
+
+}
+ .mainProceso {
+         font-size: 25px;
+         max-height: 1500px;
+ }
+
+ .mainProceso h3 {
+         font-size: 40px;
+         margin-bottom: 2rem;
+         text-decoration: underline;
+ }
+
+ .mainProceso .diseño {
+         margin-top: -6rem;
+         margin-bottom: 2rem;
+         margin-right: 4rem;
+         margin-left: 2rem;
+ }
+ .mainProceso .adecuacion {
+         margin-top: -8rem;
+         margin-bottom: 2rem;
+         margin-right: 4rem;
+         margin-left: 2rem;
+ }
+ .mainProceso .ux-ui {
+         margin-top: -6rem;
+         margin-bottom: 5rem;
+         margin-right: 4rem;
+         margin-left: 2rem;
+ }
+
+
+
+/* personalizada */
+
+.mainPersonalizada {
+        background-color: #fff;
+        color: #101010;
+        line-height: 60px;
+        width: 100%;
+        max-height: 2000px;
+}
+
+.mainPersonalizada .title {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        text-decoration: wavy;
+        margin-top: 1rem;
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+}
+
+.mainPersonalizada .title1 {
+        font-size: 25px;
+        margin-top: -7rem;
+        
+}
+
+.mainPersonalizada .title2 {
+        font-size: 25px;
+        margin-top: -7rem;
+        
+}
+
+.mainPersonalizada .title3 {
+        font-size: 25px;
+        margin-top: -7rem;
+        
+}
+
+.mainPersonalizada .img2 {
+        width: 250px;
+}
+
+.mainPersonalizada img {
+        width: 300px;
+
+}
+
+.mainPersonalizada .img1 {
+        margin-top: -18rem;
+
+}
+
+.mainPersonalizada .img2 {
+        margin-top: -20rem;
+
+}
+
+.mainPersonalizada .img3 {
+        margin-top: -18rem;
+
+}
+
+.mainPersonalizada .list1 {
+        text-align: justify;
+        text-decoration: none;
+        list-style: none;
+        margin-top: -17rem;
+}
+
+.mainPersonalizada .list2 {
+        margin-top: -17rem;
+}
+
+.mainPersonalizada .list3 {
+        margin-top: -17rem;
+}
+
+.mainPersonalizada .boton1 {
+        margin-left: -20px;
+        text-align: justify;
+
+}
+
+/* portafolio */
+
+/* primera sección  */
+
+.mainApps {
+        background-color: #fff;
+        color: #101010;
+        line-height: 60px;
+        width: 100%;
+        max-height: 2000px;
+}
+
+.mainApps .title {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        text-decoration: wavy;
+        margin-top: 1rem;
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+}
+
+.mainApps img {
+        width: 350px;
+}
+
+.mainApps .app1 {
+        margin-top: 8rem;
+}
+
+.mainApps .app1 h2 {
+        margin-left: 13rem;
+        font-size: 30px;
+        margin-top: -1rem;
+}
+
+.mainApps .app1 p {
+        margin-left: 17rem;
+        font-size: 20px;
+        margin-top: -2rem;
+}
+
+.mainApps .app2 img {
+        margin-top: -1rem;
+}
+
+.mainApps .app2 h2 {
+        margin-left: 5rem;
+        font-size: 30px;
+        margin-top: -1rem;
+}
+
+.mainApps .app2 p {
+        margin-left: 10rem;
+        font-size: 20px;
+        margin-top: -2rem;
+}
+.mainApps .app3 img{
+        margin-top: -1rem;
+        margin-right: 2rem;
+}
+
+.mainApps .app3 h2 {
+        margin-left: 7rem;
+        font-size: 30px;
+        margin-top: -1rem;
+        margin-right: 2rem;
+}
+
+.mainApps .app3 p {
+        margin-left: 10rem;
+        font-size: 20px;
+        margin-top: -2rem;
+        margin-right: 2rem;
+}
+
+.mainApps .app4 {
+        margin-top: 6rem;
+        margin-left: 5rem;
+}
+
+.mainApps .app4 h2 {
+        margin-left: 7rem;
+        font-size: 30px;
+        margin-top: -1rem;
+}
+
+.mainApps .app4 p {
+        margin-left: 8rem;
+        font-size: 20px;
+        margin-top: -2rem;
+}
+
+.mainApps .app5 {
+        margin-top: -2rem;
+}
+
+.mainApps .app5 h2 {
+        margin-left: 8rem;
+        font-size: 30px;
+        margin-top: -1rem;
+}
+
+.mainApps .app5 p {
+        margin-left: 10rem;
+        font-size: 20px;
+        margin-top: -2rem;
+}
+
+.mainApps .app6 {
+        margin-top: -2rem;
+        margin-right: 2rem;
+}
+
+.mainApps .app6 h2 {
+        margin-left: 9rem;
+        font-size: 30px;
+        margin-top: -1rem;
+        margin-right: 2rem;
+}
+
+.mainApps .app6 p {
+        margin-left: 10rem;
+        font-size: 20px;
+        margin-top: -2rem;
+        margin-bottom: 5rem;
+        margin-right: 2rem;
+}
+
+
+/* segunda sección */
+
+.mainApps2 {
+        background-color: #101010;
+}
+
+.mainApps2 .title {
+         text-align: center;
+         font-size: 25px;
+         margin-top: 1rem;
+         margin-bottom: 2rem;
+}
+.mainApps2 .items {
+        margin-left: 3rem;
+        margin-bottom: 6rem;
+}
+
+/* formulario  */
+
+.center {
+        text-align: center;
+}
+
+
+
+/* footer */
+
+.footer {
+        width: 100%;
+        min-height: 5px;
+        height: 5px;
+        margin-top: 5rem;
+        color: #1b1a1a;
+        font-size: 15px;
+}
+.footer .raya {
+        background-color: #eaeaea;
+    border: 0;
+    height: 2px;
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.sectionLogo {
+        margin: 1rem 1rem 1rem 1rem;
+        text-align: center;
+
+}
+.sectionLogo img {
+        width: 200px;
+        margin-bottom: -4rem;
+}
+
+.contacto { 
+        margin: 5rem 1rem 1rem 1rem;
+        padding: 1rem;
+        line-height: 30px;
+        text-align: center;
+}
+
+.redes {
+        margin: 6rem 1rem 1rem 1rem;
+        padding: 1rem;
+        line-height: 30px;
+        text-align: center;
+}
+.redes img {
+        width: 90px;
+}
+
+
+

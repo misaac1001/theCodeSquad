@@ -1,0 +1,371 @@
+
+/* GRID DEL INDEX */
+.mainIndex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr); 
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-areas: 
+    "texto1 foto1"
+    "texto2 texto2"
+    "texto3 texto4"
+    "texto5 texto6"
+    "texto7 texto8"
+    "lema lema"
+    "foto foto";  
+
+}
+
+.mainIndex .item1 {
+    grid-area: texto1;
+}
+
+.mainIndex .item2 {
+    grid-area: foto1;
+}
+
+.mainIndex .item3 {
+    grid-area: texto2;
+}
+
+.mainIndex .item4 {
+    grid-area: texto3;
+}
+.mainIndex .item5 {
+    grid-area: texto4;
+}
+.mainIndex .item6 {
+    grid-area: texto5;
+}
+.mainIndex .item7 {
+    grid-area: texto6;
+}
+.mainIndex .item8 {
+    grid-area: texto7;
+}
+.mainIndex .item9 {
+    grid-area: texto8;
+}
+.mainIndex .lema {
+    grid-area: lema;
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+/* GRID DE EQUIPOS */
+
+.mainEquipo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr); 
+    grid-gap: 2rem;
+    justify-content: space-between;
+    grid-template-areas: 
+    "title title"
+    "foto1 foto2"
+    "texto1 texto2"
+    "foto3 foto4"
+    "texto3 texto4"
+    "foto5 texto5"
+}
+
+.mainEquipo .title {
+    grid-area: title;
+
+}
+.mainEquipo .foto1 {
+    grid-area: foto1;
+
+}
+.mainEquipo .foto2 {
+    grid-area: foto2;
+
+}
+.mainEquipo .texto1 {
+    grid-area: texto1;
+
+}
+.mainEquipo .texto2 {
+    grid-area: texto2;
+
+}
+.mainEquipo .foto3 {
+    grid-area: foto3;
+
+}
+.mainEquipo .foto4 {
+    grid-area: foto4;
+
+}
+.mainEquipo .texto3 {
+    grid-area: texto3;
+
+}
+.mainEquipo .texto4 {
+    grid-area: texto4;
+
+}
+
+.mainDiseño {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr; 
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-areas: 
+    "foto5 texto5"
+}
+
+
+/* Apps Moviles */
+
+.mainMovil {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, 1fr); 
+    grid-gap: 2rem;
+    justify-content: space-between;
+    justify-items: center;
+    grid-template-areas: 
+    "title title title title"
+    "app1 app2 app3 app4"
+    "app5 app6 app6 app7 "
+    "vacio vacio vacio vacio"
+}
+
+.mainMovil .title{
+    grid-area: title;
+
+}
+.mainMovil .app1{
+    grid-area: app1;
+
+}
+.mainMovil .app2{
+    grid-area: app2;
+
+}
+.mainMovil .app3{
+    grid-area: app3;
+
+}
+.mainMovil .app4{
+    grid-area: app4;
+
+}
+.mainMovil .app5{
+    grid-area: app5;
+
+}
+.mainMovil .app6{
+    grid-area: app6;
+
+}
+.mainMovil .app7{
+    grid-area: app7;
+
+}
+
+.mainProceso {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr); 
+    grid-gap: 2rem;
+    justify-content: space-between;
+    grid-template-areas: 
+    "title"
+    "diseño"
+    "adecuacion"
+    "ux-ui"
+}
+
+.mainProceso .title{
+    grid-area: title;
+}
+.mainProceso .diseño{
+    grid-area: diseño;
+}
+.mainProceso .adecuacion{
+    grid-area: adecuacion;
+}
+.mainProceso .ux-ui{
+    grid-area: ux-ui;
+}
+
+
+/* grid personalizada */
+
+.mainPersonalizada {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(5, 1fr); 
+    grid-gap: 2rem;
+    justify-content: space-between;
+    justify-items: center;
+    grid-template-areas: 
+    "title title title"
+    "title1 title2 title3"
+    "img1 img2 img3"
+    "list1 list2 list3"
+    "boton1 boton2 boton3"
+}
+
+.mainPersonalizada .title {
+    grid-area: title;
+}
+
+.mainPersonalizada .title1 {
+    grid-area: title1;
+}
+
+.mainPersonalizada .title2 {
+    grid-area: title2;
+}
+
+.mainPersonalizada .title3 {
+    grid-area: title3;
+}
+
+.mainPersonalizada .img1 {
+    grid-area: img1;
+}
+
+.mainPersonalizada .img2 {
+    grid-area: img2;
+}
+
+.mainPersonalizada .img3 {
+    grid-area: img3;
+}
+
+.mainPersonalizada .list1 {
+    grid-area: list1;
+}
+
+.mainPersonalizada .list2 {
+    grid-area: list2;
+}
+
+.mainPersonalizada .list3 {
+    grid-area: list3;
+}
+
+.mainPersonalizada .boton1 {
+    grid-area: boton1;
+}
+
+.mainPersonalizada .boton2 {
+    grid-area: boton2;
+}
+
+.mainPersonalizada .boton3 {
+    grid-area: boton3;
+}
+
+/* GRID PORTAFOLIO */
+/* PRIMERA SECCION */
+
+.mainApps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 1fr 1fr; 
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "title title title"
+    "app1 app2 app3"
+    "app4 app5 app6"
+}
+
+.mainApps .title {
+    grid-area: title;
+}
+.mainApps .app1 {
+    grid-area: app1;
+}
+.mainApps .app2 {
+    grid-area: app2;
+}
+.mainApps .app3 {
+    grid-area: app3;
+}
+
+.mainApps .app4 {
+    grid-area: app4;
+}
+
+.mainApps .app5 {
+    grid-area: app5;
+}
+
+.mainApps .app6 {
+    grid-area: app6;
+}
+
+/* segunda seccion */
+
+.mainApps2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr; 
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "title title"
+    "items imgApps";
+
+}
+
+.mainApps2 .title {
+    grid-area: title;
+}
+
+.mainApps2 .items {
+    grid-area: items;
+}
+
+.mainApps2 .imgApps {
+    grid-area: imgApps;
+}
+
+
+
+
+
+
+
+
+
+/* grid footer */
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr; 
+    justify-content: flex-end;
+    grid-template-areas: 
+    "raya raya raya raya sectionLogo contacto redes"
+}
+
+.footer .raya{
+    grid-area: raya;
+}
+.footer .sectionLogo{
+    grid-area: sectionLogo;
+}
+.footer .contacto{
+    grid-area: contacto;
+}
+.footer .redes{
+    grid-area: redes;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../grids/grids.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel = "preconnect" href = "https://fonts.googleapis.com">
+  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+  <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
+  <title> The Code Squad </title>
+  <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
+</head>
+
+<body>
+  <!-- Aquí comienza la página -->
+  <header class="header">
+    <!-- Encabezado -->
+    <div class="header__logo" >
+      <a href="../index.html"><img src="../img/logoSinFondo.png" alt="logo" width="300rem"></a>
+    </div>
+    <nav>
+    <!-- Barra de navegación -->
+      <ul class="menu">
+        <li><a class="menu-1" href="contacto.html">Contacto</a></li>
+        <li><a class="menu-1" href="portafolio.html">Portafolio</a></li>
+        <li><a class="menu-1" href="AppPersonalizada.html">Apps a medida</a></li>
+        <li><a class="menu-1" href="appMoviles.html">Apps para móviles</a></li>
+        <li><a class="menu-1" href="equipo.html">Equipo</a></li>
+        <li class="home"><a class="menu-1" href="../index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="center">
+      <form action="gracias.html" target="_blank" enctype="application/x-www-form-urlencoded">
+          <h2 class="section--tittle tittleMovil"> CONTACTO </h2>
+        <!-- formulario de contacto -->
+        <div>
+        <label for="nuestroNombre">NOMBRE:</label>
+        <input type="text" name="nuestroNombre">
+        </div>
+        <div>
+        <label for="nuestroApellido">APELLIDO:</label>
+        <input type="text" name="nuestroApellido">
+        </div>
+        <div>
+        <label for="nuestroEmail">EMAIL:</label>
+        <input type="email">
+        </div>
+  
+        <div>SOY:
+        <select name="tipo" id="">
+          <option value="empresa">Empresa</option>
+          <option value="Persona">Persona</option>
+        </select>
+        </div> 
+        <div>Proyectos:</div> 
+        <div> APP PARA MOVILES 
+        <input type="radio" name="proyecto" value="APP PARA MOVILES">
+        </div>
+        <div>APP PERSONALIZADA
+        <input type="radio" name="proyecto" value="APP PERSONALIZADA">
+        </div>
+        <div>Comentarios</div>
+
+        <textarea name="comentarios" id="" cols="40" rows="10"></textarea>
+        <div>Deseas recibir mas información
+        <input type="checkbox" name="acepta" value="1">
+        </div>
+        <input type="reset">
+        <input type="submit">
+      </form>
+    </section>
+
+  </main>
+  <footer >
+    <!-- Pie de página -->
+          <section class="footer" >
+            <div class="raya">
+              <hr>
+            </div>
+            
+            <div class="sectionLogo">
+               <img src="../img/logoSinFondo.png" alt="foto prueba">
+                <p>Derechos reservados 2021</p>
+            </div>
+           
+            <div class="contacto">
+                <p> Contactenos  </p>
+                <p>info@codesquad.com </p>
+                <p> +5491184340947</p>
+            </div>
+
+            <div class="redes">
+              <p>Síguenos </p>
+              <img src="../img/redesSociales.png"  alt="foto redes sociales">
+            </div>
+           
+          </section>
+        
+  </footer>
+</body>
+
+</html>
