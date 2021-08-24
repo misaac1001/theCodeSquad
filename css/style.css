@@ -14,75 +14,44 @@ html {
 /* condiciones generales */
 
 body{
-        background-image: radial-gradient(circle, #b1b7b7, #bfc4c5, #cccfcf, #b9babb, #c4c4c7, #dddbdb, #c5c5c7, #c5c5c5, #d1d2d4, #b8b6b6, #aaaeb0, #979d9d);
-}
-
-header {
-        padding: 0rem;
-        margin: 0rem;
-        margin-top: 0rem;
-        
-}
-
-main {
-        width: 100%;
-        color:  white;
-        opacity: 1;
-        font-family: 'Montserrat', sans-serif;;
-        font-style: normal;
-        word-spacing: normal;
-        line-height: 40px;
-        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
 
 }
 
 
-img{
-        border-radius: 25px;
-        
-}
 
-.textCenter { 
-        text-align: center;
-}
+/* logo header */
 
-.header__logo {
-        margin-top: -5rem;
-        margin-left: 5rem;
+nav img {
+        width: 200px;
 }
 
 /* menu de navegación */
 
-.menu {
-        font-family: Helvetica ,Arial,sans-serif;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: start;
-        list-style: none;
-        line-height: 4rem;
-        margin-top: -10rem;
-        margin-right: 5rem;
+
+
+/* foto pagina */
+
+header .header1 {
+        background-image: url(../img/fotoFondo1.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 300px;
+
+}
+.header1 h2 {
+        -webkit-text-stroke: 2px white;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin: 4rem;
         
+
 }
 
-.menu-1 {
-        margin-right: 10px;
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.918);
-        font-weight: bolder;
-}
 
-.menu-1:active {
-        text-decoration: none;
-}
-
-.menu-1:checked {
-        text-decoration: none;
-}
-
-.menu-1:hover{
-        color: #101010;
-}
 /* INDEX  */
 
 .mainIndex { 
