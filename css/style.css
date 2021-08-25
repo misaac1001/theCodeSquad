@@ -19,7 +19,14 @@ body{
 
 }
 
-
+.title {
+        font-size: 50px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: underline;
+        margin: 4rem;
+        padding: auto;
+        text-align: center;
+}
 
 /* logo header */
 
@@ -27,221 +34,223 @@ nav img {
         width: 200px;
 }
 
-/* menu de navegación */
 
 
-
-/* foto pagina */
+/* foto index */
 
 header .header1 {
         background-image: url(../img/fotoFondo1.jpeg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        height: 300px;
-
-}
-.header1 h2 {
-        -webkit-text-stroke: 2px white;
-        color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        margin: 4rem;
+        height: 400px;
+        opacity: 80%;
         
 
 }
+
+/* menu */
+
+header .menu {
+        height: 200px;
+        opacity: 95%;
+}
+
 
 
 /* INDEX  */
 
-.mainIndex { 
-        width: 1500px;
-        height: 2000px;
-        margin: 10px;
+.card1 {
+        
+        margin: 2rem;
+        width: 300px;
+        height: 240px;
+        text-align: justify;
+        border-radius: 10px;
+        border-color: black ;
+        
         
 }
-
-.item1 {
-        margin-top: 4rem;
-        margin-left: 4rem;
-        padding: 2rem;
-}
-
-.item1 h1 {
+.card1 h5 {
         text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30px;
-        margin-bottom: 2rem;
+        text-decoration: underline;
+       
 }
 
-.item2 {
-       margin-left: 9rem;
-       margin-top: 4rem;
-       padding: 1rem;
-
+.card1 p {
+        
+        line-height: 35px;
 }
 
-.item2 img { 
-        width: 400px;
-}
-
-.item3 {
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 25px;
-        margin-bottom: 1rem;
-        margin-top: 7rem;
- }
-
-.item4 {
-        height: 90px;
-        margin: 1rem 1rem 3rem 4rem;
-        padding: 1rem;
-        font-size: 30px;
-}
-.item4 .title {
-        margin-bottom: 1rem;
-        text-align: center;
-}
-.item5 {
-        height: 90px;
-        margin: 1rem 4rem 3rem 1rem;
-        margin-right: 4rem;
-        margin-left: 1rem;
-        padding: 1rem;
-        font-size: 30px;
-}
-.item5 .title {
-        margin-bottom: 1rem;
-        text-align: center;
-}
-.item6 {
-        height: 90px;
-        margin: 1rem 1rem 3rem 4rem;
-        padding: 1rem;
-        font-size: 30px;
-}
-.item6 .title {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        text-align: center;
-}
-
-.item7 {
-        height: 90px;
-        margin-right: 4rem;
-        margin-left: 1rem;
-        padding: 1rem;
-        font-size: 30px;
-}
-.item7 .title {
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        text-align: center;
-}
-.item8 {
-        height: 90px;
-        margin-left: 4rem;
-        margin-right: 1rem;
-        padding: 1rem;
-        font-size: 30px;
-}
-.item8 .title {
-        margin-top: 4rem;
-        margin-bottom: 1rem;
-        text-align: center;
-}
-.item9 {
-        height: 90px;
-        margin-right: 4rem;
-        margin-left: 1rem;
-        padding: 1rem;
-        font-size: 30px;
-}
-
-.item9 .title {
-        margin-top: 4rem;
-        margin-bottom: 1rem;
-        text-align: center;
-}
-
-.lema {
-        text-align: center;
-        font-size: 20px;
+.card2 {
+        
         margin: 2rem;
-        padding: 2rem;
+        width: 300px;
+        height: 260px;
+        text-align: justify;
+        border-radius: 10px;
+        border-color: black ;
+}
+
+.card2 h5 {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+      
+}
+
+.card2 p {
+        
+        line-height: 35px;
+}
+
+.card3 {
+        
+                margin: 2rem;
+                width: 300px;
+                height: 260px;
+                text-align: justify;
+                border-radius: 10px;
+                border-color: black ;
+        }
+        
+        .card3 h5 {
+                text-align: center;
+                font-size: 30px;
+                text-decoration: underline;
+              
+        }
+        
+        .card3 p {
+                
+                line-height: 35px;
+        }
+.card4 {
+        
+        margin: 2rem;
+        width: 300px;
+        height: 260px;
+        text-align: justify;
+        border-radius: 10px;
+        border-color: black ;
+}
+
+.card4 h5 {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+      
+}
+
+.card4 p {
+        
+        line-height: 35px;
+}
+
+.card5 {
+        
+        margin: 2rem;
+        width: 300px;
+        height: 260px;
+        text-align: justify;
+        border-radius: 10px;
+        border-color: black ;
+}
+
+.card5 h5 {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+      
+}
+
+.card5 p {
+        
+        line-height: 35px;
+}
+
+.card6 {
+        
+        margin: 2rem;
+        width: 300px;
+        height: 260px;
+        text-align: justify;
+        border-radius: 10px;
+        border-color: black ;
+}
+
+.card6 h5 {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+      
+}
+
+.card6 p {
+        
+        line-height: 35px;
 }
 
 /* EQUIPO  */
 
-.equipos {
-        background-color: #fff;
-        color: #101010;
-}
-.mainEquipo { 
-        width: 1500px;
-        height: 2500px;
-        margin: 10px;
-        margin-bottom: 3rem;
+
+/* foto header */
+
+header .header2 {
+        background-image: url(../img/fotoFondo2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+        opacity: 80%;
+        
+
 }
 
-.mainEquipo .title h1 {
-        text-align: center;
-        font-family: sans-serif;
-        font-size: 60px;
-        text-decoration: wavy;
-        margin-top: 4rem;
-        
-}
+/* contenido */
 
 /* primera sección  */
-
-
-.mainEquipo .foto1 { 
-        margin: -15rem 2rem 2rem 5rem;
-}
-
-.foto1 img { 
-        width: 500px;
-}
-
-.mainEquipo .foto2 { 
-        margin: -15rem 2rem 2rem 4rem;
-}
-
-.foto2 img { 
-        width: 500px;
-}
-
-.mainEquipo .texto1 {
-        margin: -15rem 4rem 2rem 4rem;
-        padding: 1rem;
+.boss {
+        text-align: justify;
+        line-height: 40px;
+        font-size: 20px;
         
-        width: 500px;
 }
 
-.mainEquipo .texto1 h2 {
-        margin-bottom: 2rem; 
+.name {
         text-align: center;
         font-size: 35px;
+        text-decoration: underline;
+        margin: 2rem;
+        padding: 5px;
+        
 }
-.mainEquipo .texto1 h3 {
-        margin: 1rem 0 1rem 0;
+
+.contenido1 {
+        margin: 2rem;
+        padding: 1rem;
 }
-.mainEquipo .texto2 {
-        margin: -15rem 4rem 2rem 4rem;
-        width: 500px;
-}
-.mainEquipo .texto2 h2 {
-        margin-bottom: 2rem;
-        text-align: center;
-        font-size: 35px;
-}
-.mainEquipo .texto2 h3 {
-        margin: 1rem 0 1rem 0;
-}
+
 
 /* segunda sección */
+
+section .imgDiseño {
+
+        background-image: url(../img/codificando.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+        opacity: 80%;
+
+}
+
+.imgDiseño h3 {
+        color: #fff;
+}
+
+
 
 .mainEquipo .foto3 { 
         margin-top: -6rem;

@@ -1,57 +1,5 @@
 
 /* GRID DEL INDEX */
-.mainIndex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr); 
-    grid-gap: 2rem;
-    justify-content: center;
-    grid-template-areas: 
-    "texto1 foto1"
-    "texto2 texto2"
-    "texto3 texto4"
-    "texto5 texto6"
-    "texto7 texto8"
-    "lema lema"
-    "foto foto";  
-
-}
-
-.mainIndex .item1 {
-    grid-area: texto1;
-}
-
-.mainIndex .item2 {
-    grid-area: foto1;
-}
-
-.mainIndex .item3 {
-    grid-area: texto2;
-}
-
-.mainIndex .item4 {
-    grid-area: texto3;
-}
-.mainIndex .item5 {
-    grid-area: texto4;
-}
-.mainIndex .item6 {
-    grid-area: texto5;
-}
-.mainIndex .item7 {
-    grid-area: texto6;
-}
-.mainIndex .item8 {
-    grid-area: texto7;
-}
-.mainIndex .item9 {
-    grid-area: texto8;
-}
-.mainIndex .lema {
-    grid-area: lema;
-}
-
-
 
 
 .footer {
@@ -64,7 +12,7 @@
 
 /* GRID DE EQUIPOS */
 
-.mainEquipo {
+/* .mainEquipo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr); 
@@ -114,7 +62,7 @@
 .mainEquipo .texto4 {
     grid-area: texto4;
 
-}
+} */
 
 .mainDiseño {
     display: grid;

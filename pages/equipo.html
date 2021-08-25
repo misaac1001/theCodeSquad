@@ -1,120 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../grids/grids.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel = "preconnect" href = "https://fonts.googleapis.com">
-  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-  <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
-  <title> The Code Squad </title>
-  <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../grids/grids.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
+    <title> The Code Squad </title>
+    <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
+  </head>
 
 <body>
   <!-- Aquí comienza la página -->
-  <header class="header">
-    <!-- Encabezado -->
-    <div class="header__logo" >
-      <a href="../index.html"><img src="../img/logoSinFondo.png" alt="logo" width="300rem"></a>
-    </div>
-    <nav>
-    <!-- Barra de navegación -->
-      <ul class="menu">
-        <li><a class="menu-1" href="contacto.html">Contacto</a></li>
-        <li><a class="menu-1" href="portafolio.html">Portafolio</a></li>
-        <li><a class="menu-1" href="AppPersonalizada.html">Apps a medida</a></li>
-        <li><a class="menu-1" href="appMoviles.html">Apps para móviles</a></li>
-        <li><a class="menu-1" href="equipo.html">Equipo</a></li>
-        <li class="home"><a class="menu-1" href="../index.html">Home</a></li>
-      </ul>
+  <header>
+    
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light menu ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logoSinFondo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="equipo.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="appMoviles.html">A Medida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AppPersonalizada.html">Personalizadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portafolio.html">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            
+            </ul>
+
+        </div>
+      </div>
     </nav>
-  </header>
-  <main class="equipos">
+    <div class="header2"></div>
+    
+  </header> 
+
+  <main class="conteiner">
 
     <!--EQUIPO FUNDADOR Y TECNICOS-->
 
-    <section class="mainEquipo">
+    <div class="d-flex justify-content-center ">
+      
 
-      <div class="title"><h1> EQUIPO MULTIDICIPLINARIO </h1></div>
+        <h1 class="title"> EQUIPO MULTIDICIPLINARIO </h1>
 
-      <div class="foto1">
-        <img src="../img/fundadora.jpg" alt="imagen  fundadora">
-      </div>
+    </div>
 
-         <aside class="foto2">
-           <img src="../img/fundador.jpg" alt="imagen fundador">
-         </aside>
+    <section class="d-flex flex-row bd-highlight justify-content-around flex-md-column flex-sm-column flex-lg-row flex-xl-row  flex-xxl-row">
 
+      <div class="p-2 flex-fill bd-highlight m-4 p-4">
 
-         <div class="texto1">
+        <div>
 
-           <h2> MARIANA ISAAC </h2>
+          <img src="../img/fundadora.jpg" alt="imagen  fundadora">
+        
+        </div>
+
+        <div class="contenido1">
+
+          <div class="name"> <h2> MARIANA ISAAC </h2> </div>
+
+          <div class="boss">
 
             <p>Mariana es de las pocas personas que conoce todos los secretos de The Code Squad. Fundadora en el 2009 y gracias a su buen hacer y a su creatividad las cuentas parecen un juego de niños.
-
+  
             Sus años de experiencia en las finanzas y su paciencia al explicar la convierten en una maestra perfecta que logra hacer entender qué es el cashflow a todos los profanos de los números.</p> 
-
+  
             <h3>Lo de dentro se manifiesta por fuera</h3>
-
+  
             <p> Aunque es segoviana, prefiere la comida india al cochinillo y los mochi al ponche segoviano.
               Si tuviera que elegir una película, indudablemente sería Coco.
               ¿Un secreto confesable? De pequeña quería ser cantante, y se lo tomaba muy en serio.</p>
-              
 
-         </div>
-
-         <aside class="texto2">
-
-           <h2>MARTIN PEREZ</h2>
-
-           <p> Con tan sólo 24 años tuvo la suerte de tropezar con Internet, algo que le cambió la vida profesional y, en parte, la personal. Muy poco después, fundaba su primera empresa, The Code Squad. Si hubiera que definirle en tres palabras serían emprendedor, inversor y mediador. 
-
-            Afable y cordial, sabe sacar tiempo para todo, familia y negocios, y aunque su agenda puede asustar a algunos, siempre está cuando se le necesita.</p>
-
-            <h3>Lo de dentro se manifiesta por fuera</h3>
-
-            <p> Su principal herramienta de trabajo es el teléfono, cuando no es posible un cara a cara con un café de por medio.
-              Una lectura que considera indispensable es el “El principito”. No lleva la cuenta de las veces que lo ha leído.
-              Ha sido profesor de natación durante 10 años. Con título oficial y todo.</p>
-
-         </aside>
-
-
-         <div class="foto3">
-           <img src="../img/diseñadora.jpg" alt="Nuestra técnica">
-         </div>
-
-
-         <aside class="foto4">
-           <img src="../img/tecnico.jpg" alt="Nuestro técnico">
-         </aside>
-
-
-         <div class="texto3">
-           
-           <h2> Martina Rodriguez</h2>
-   
-           <p> La diseñadora de producto más versátil, comenzó estudiando diseño de mobiliario y escultura aunque siempre le apasionó el diseño digital. Ha sabido trasladar el cuidado y la atención en prototipar y crear objetos físicos al terreno de los productos digitales.
-   
-             Siempre ha trabajado desde la conceptualización y el research hasta las interacciones más finas, profundizando en los últimos años en la parte más estratégica del negocio y en el service design.</p>
-   
-            <h3>Lo de dentro se manifiesta por fuera</h3>
-   
-            <p> Tremendamente foodie, viaja para conocer nuevos restaurantes que ofrezcan experiencias completas.
-             Se pirra por el cacharrismo, el DIY y trastear con cualquier gadget que aparezca nuevo el mercado.
-             Se le van las horas prototipando con su impresora 3D y ha vuelto a pasar terror con los videojuegos al descubrir que la realidad virtual ahora es verdaderamente inmersiva.</p>     
+          </div>
 
         </div>
-        
-        
-        <aside class="texto4">
 
-           <h2> Rafael Martinez</h2>
+      </div>
+
+      <aside class="p-2 flex-fill bd-highlight m-4 p-4 ">
+
+        <div class="justify-content-center">
+
+          <img src="../img/fundador.jpg" alt="imagen fundador">
+        
+        </div>
+
+        <div class="contenido1">
+
+          <div class="name"> <h2>MARTIN PEREZ</h2> </div>
+
+          <div class="boss">
+
+            <p> Con tan sólo 24 años tuvo la suerte de tropezar con Internet, algo que le cambió la vida profesional y, en parte, la personal. Muy poco después, fundaba su primera empresa, The Code Squad. Si hubiera que definirle en tres palabras serían emprendedor, inversor y mediador. 
+
+              Afable y cordial, sabe sacar tiempo para todo, familia y negocios, y aunque su agenda puede asustar a algunos, siempre está cuando se le necesita.</p>
+  
+              <h3>Lo de dentro se manifiesta por fuera</h3>
+  
+              <p> Su principal herramienta de trabajo es el teléfono, cuando no es posible un cara a cara con un café de por medio.
+                Una lectura que considera indispensable es el “El principito”. No lleva la cuenta de las veces que lo ha leído.
+                Ha sido profesor de natación durante 10 años. Con título oficial y todo.</p>
+
+          </div>
+
+
+        </div>
+
+      </aside>
+
+    </section>
+
+    <section class="d-flex flex-row bd-highlight justify-content-around flex-md-column flex-sm-column flex-lg-row flex-xl-row  flex-xxl-row">
+
+      <div class="p-2 flex-fill bd-highlight m-4 p-4 ">
+
+        <div class="justify-content-center">
+
+          <img src="../img/diseñadora.jpg" alt="Nuestra técnica">
+        
+        </div>
+
+        <div class="contenido1">
+
+          <div class="name"> <h2>  Martina Rodriguez </h2> </div>
+
+          <div class="boss">
+
+            <p> La diseñadora de producto más versátil, comenzó estudiando diseño de mobiliario y escultura aunque siempre le apasionó el diseño digital. Ha sabido trasladar el cuidado y la atención en prototipar y crear objetos físicos al terreno de los productos digitales.
    
+              Siempre ha trabajado desde la conceptualización y el research hasta las interacciones más finas, profundizando en los últimos años en la parte más estratégica del negocio y en el service design.</p>
+    
+             <h3>Lo de dentro se manifiesta por fuera</h3>
+    
+             <p> Tremendamente foodie, viaja para conocer nuevos restaurantes que ofrezcan experiencias completas.
+              Se pirra por el cacharrismo, el DIY y trastear con cualquier gadget que aparezca nuevo el mercado.
+              Se le van las horas prototipando con su impresora 3D y ha vuelto a pasar terror con los videojuegos al descubrir que la realidad virtual ahora es verdaderamente inmersiva.</p>     
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <aside class="p-2 flex-fill bd-highlight m-4 p-4 ">
+
+        <div class="justify-content-center">
+
+          <img src="../img/tecnico.jpg" alt="Nuestro técnico">
+        
+        </div>
+
+        <div class="contenido1">
+
+          <div class="name"> <h2> Rafael Martinez</h2> </div>
+
+          <div class="boss">
+
            <p> Forma parte de la savia de The Code Squad. Desde su incorporación ha crecido y la ha hecho crecer. En este tiempo ha aprendido que la mayoría de problemas surgen por falta de comunicación, por ello intenta entender todos los puntos de vista y negociar con cliente, partners y equipo interno. Su formación como Ingeniero Informático y su capacidad para gestionar equipos, hacen de él un solucionador de problemas nato, que siempre logra acuerdos y compromisos.
             Habla 3 idiomas perfectamente: español, inglés y alemán.</p>
    
@@ -124,35 +189,33 @@
               Tiene 3 hijos, nacidos en los años en los que España ha sido campeona de fútbol. En la intimidad lo consideran "El pacificador".
               Asistir a los JJ.OO. de Barcelona ‘92 fue para él una experiencia inolvidable.</p>
 
-         </aside>
-
-        </section>
+          </div>
 
 
-         <section class="mainDiseño">
+        </div>
+
+      </aside>
+      
+
+    </section>
+
+
+    <section>
            
-         <div class="foto5">
+           <div class="imgDiseño d-flex flex-column justify-content-end align-items-end ">
 
-          <img src="../img/codificando.jpg" alt="codigos">
+           <h3> Exploramos</h3>
+           <h3> Descubrimos</h3>
+           <h3> Diseñamos</h3>
+           <h3> Construimos</h3>
 
-         </div>
-
-         <aside class="texto5">
-
-           <h3 class="exploramos"> Exploramos</h3>
-           <h3 class="descubrimos"> Descubrimos</h3>
-           <h3 class="diseñamos"> Diseñamos</h3>
-           <h3 class="construimos"> Construimos</h3>
-
-         </aside>
-
-
-
-
+           </div>
 
 
     </section>
+
   </main>
+
   <footer >
     <!-- Pie de página -->
           <section class="footer" >
