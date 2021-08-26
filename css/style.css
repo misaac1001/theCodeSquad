@@ -52,8 +52,8 @@ header .header1 {
 /* menu */
 
 header .menu {
-        height: 200px;
-        opacity: 95%;
+        opacity: 80%;
+        
 }
 
 
@@ -242,250 +242,247 @@ section .imgDiseño {
         background-position: center center;
         background-size: cover;
         height: 400px;
-        opacity: 80%;
+        
 
 }
 
 .imgDiseño h3 {
         color: #fff;
-}
-
-
-
-.mainEquipo .foto3 { 
-        margin-top: -6rem;
-        margin-left: 6rem;
-}
-
-.foto3 img { 
-        width: 500px;
-}
-
-.mainEquipo .foto4 { 
-        margin-top: -6rem;
-        margin-left: 10rem;
-}
-
-.foto4 img { 
-        width: 500px;
-}
-.mainEquipo .texto3 {
-        margin-top: 1rem;
-        margin-left: 5rem;
-        width: 500px;
-}
-
-.mainEquipo .texto3 h2 {
-        margin-bottom: 2rem;
-        margin-top: -10rem;
-        text-align: center;
-        font-size: 35px;
-}
-.mainEquipo .texto3 h3 {
-        margin: 1rem 0 1rem 0;
-}
-.mainEquipo .texto4 {
-        margin-top: -9rem;
-        margin-left: 9rem;
-        width: 500px;
-}
-.mainEquipo .texto4 h2 {
-        margin-bottom: 2rem;
-        text-align: center;
-        font-size: 35px;
-}
-.mainEquipo .texto4 h3 {
-        margin: 1rem 0 1rem 0;
-}
-.mainEquipo .foto5 img {
-        width: 800px;
-        height: 500px;
-}
-
-.mainEquipo .foto5 {
-        margin-left: 4rem;
-        margin-bottom: 6rem;
-        margin-right: 15rem;
-}
-.mainEquipo .texto5 {
-        text-align: center;
-        font-size: 50px;
-        line-height: 8rem;
-        
+        font-size: 40px;
         
 }
 
-.mainDiseño {
-        background-color: #020202;
-        color: #fff;
-        font-size: 50px;
-}
-
-.mainDiseño .exploramos {
-        text-align: center;
-        margin: 2rem;
-        margin-bottom: 4rem;
+section .diseño1 {
         margin-top: 4rem;
 }
-.mainDiseño .descubrimos {
-        text-align: center;
-        margin: 2rem;
-        margin-bottom: 4rem;
-}
-.mainDiseño .diseñamos {
-        text-align: center;
-        margin: 2rem;
-        margin-bottom: 4rem;
-}
-.mainDiseño .construimos {
-        text-align: center;
-        margin: 2rem;
-        margin-bottom: 4rem;
 
-}
 
 
 
 /* MOVILES */
 
-.movil {
-        background-color: #fff;
-        color: #101010;
-       
+header .header3 {
+        background-image: url(../img/fotoFondo3.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+        opacity: 80%;
+        
+
 }
 
-.mainProceso { 
-        color: #fff;
-        background-color: #101010;
+/* cards */
 
-}
+/* card1 */
 
-.mainMovil h1 {
+
+section .icon1 {
+        font-size: 90px;
         text-align: center;
-        font-family: sans-serif;
-        font-size: 40px;
-        text-decoration: wavy;
-        margin-top: 4rem;
-        padding-top: 4rem;
-        margin-bottom: 4rem;
+}
+
+
+section .cardM1 {
+        margin: 1rem;
+        padding: 2rem;
+        width: 400px;
+
+}
+
+section .cardM1 p {
+
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 2px;
         
 }
 
-.app1 img {
-        width: 150px;
-        margin-left: 8rem;
-        margin-top: -20rem;
-}
-
-.app1 h3 {
-        margin: 1rem;
-        margin-left: 3rem;
-}
-
-.app1 p {
-        width: 300px;
-        margin-left: 3rem;
-}
-.app2 img {
-        width: 200px;
-        margin-left: 3rem;
-        margin-top: -12rem;
-}
-.app2 h3 {
-        margin: 1rem;
-        margin-left: 3rem;
-}
-
-.app2 p {
-        width: 200px;
-        margin-left: 3rem;
-}
-.app3 img {
-        width: 200px;
-        margin-left: 1rem;
-        margin-top: -15rem;
-}
-.app3 h3 {
-        width: 300px;
+section .cardM1 h5 {
         text-align: center;
-        margin-top: 1rem ;
-        margin-left: -3rem;
+        font-size: 2rem;
+        margin-bottom: 30px;
 }
 
-.app3 p {
-        width: 300px;
-        margin-left: -2rem;
-}
-.app4 img {
-        width: 200px;
-        margin-left: 1rem;
-        margin-top: -10rem;
-        margin-right: 2rem;
-}
-.app4 h3 {
-        width: 250px;
+/* card2 */
+
+
+section .icon2 {
+        font-size: 90px;
         text-align: center;
-        margin-top: 1rem ;
-        margin-left: -1rem;
-        margin-right: 2rem;
 }
 
-.app4 p {
-        width: 300px;
-        margin-left: -2rem;
-        margin-right: 2rem;
-}
-
-.app5 img {
-        width: 200px;
-        margin-left: 6rem;
-        margin-top: -1rem;
-}
-
-.app5 h3 {
+.cardM2 {
         margin: 1rem;
-        margin-left: 4rem;
+        padding: 2rem;
+        width: 400px;
+
 }
 
-.app5 p {
-        width: 300px;
-        margin-left: 3rem;
-}
-.app6 img {
-        width: 200px;
-        margin-left: 7rem;
-        margin-top: -3rem;
-}
-.app6 h3 {
-        margin-top: -1rem;;
-        margin-left: 3rem;
+section .cardM2 p {
+
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 2px;
+        
 }
 
-.app6 p {
-        width: 300px;
-        margin-left: 4rem;
-}
-.app7 img {
-        width: 150px;
-        margin-top: -2rem;
-        margin-left: 1rem;
-        margin-right: 2rem;
-}
-.app7 h3 {
-        margin-top: 1rem;;
-        margin-left: -2rem;
-        margin-right: 2rem;
+section .cardM2 h5 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 30px;
 }
 
-.app7 p {
-        width: 300px;
-        margin-left: -5rem;
-        margin-right: 2rem;
+/* card3 */
+
+
+section .icon3 {
+        font-size: 90px;
+        text-align: center;
+}
+
+.cardM3 {
+        margin: 1rem;
+        padding: 2rem;
+        width: 400px;
+
+}
+
+section .cardM3 p {
+
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 2px;
+        
+}
+
+section .cardM3 h5 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 30px;
+}
+
+/* card4 */
+
+
+section .icon4 {
+        font-size: 90px;
+        text-align: center;
+}
+
+.cardM4 {
+        margin: 1rem;
+        padding: 2rem;
+        width: 400px;
+
+}
+
+section .cardM4 p {
+
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 2px;
+        
+}
+
+section .cardM4 h5 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 30px;
+}
+
+/* card5 */
+
+
+section .icon5 {
+        font-size: 90px;
+        text-align: center;
+}
+
+.cardM5 {
+        margin: 1rem;
+        padding: 2rem;
+        width: 400px;
+
+}
+
+section .cardM5 p {
+
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 2px;
+        
+}
+
+section .cardM5 h5 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 30px;
+}
+
+/* card6 */
+
+
+section .icon6 {
+        font-size: 90px;
+        text-align: center;
+}
+
+.cardM6 {
+        margin: 1rem;
+        padding: 2rem;
+        width: 400px;
+
+}
+
+section .cardM6 p {
+
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 2px;
+        
+}
+
+section .cardM6 h5 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 30px;
+}
+
+/* segunda seccion moviles */
+
+.diseño h3 {
+        font-size: 30px;
+        margin: 40px 20px 40px 0px;
+        letter-spacing: 2px;
+        line-height: 40px;
+}
+
+.diseño p {
+        line-height: 40px;
+        letter-spacing: 2px;
 }
 
 
- /* segunda seccion de apps moviles */
+/* PERSONALIZADO */
 
+header .header4 {
+        background-image: url(../img/fotoFondo4.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+        opacity: 80%;
+        
+}
+
+/* 
 .mainProceso h2 { 
         text-align: center;
         font-family: sans-serif;
@@ -528,7 +525,7 @@ section .imgDiseño {
 
 
 /* personalizada */
-
+/* 
 .mainPersonalizada {
         background-color: #fff;
         color: #101010;
@@ -608,7 +605,7 @@ section .imgDiseño {
         margin-left: -20px;
         text-align: justify;
 
-}
+} */ */
 
 /* portafolio */
 

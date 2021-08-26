@@ -1,128 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../grids/grids.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel = "preconnect" href = "https://fonts.googleapis.com">
-  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-  <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
-  <title> The Code Squad </title>
-  <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../grids/grids.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
+    <title> The Code Squad </title>
+    <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
+  </head>
 
 <body>
   <!-- Aquí comienza la página -->
-  <header class="header">
-    <!-- Encabezado -->
-    <div class="header__logo" >
-      <a href="../index.html"><img src="../img/logoSinFondo.png" alt="logo" width="300rem"></a>
-    </div>
-    <nav>
-    <!-- Barra de navegación -->
-      <ul class="menu">
-        <li><a class="menu-1" href="contacto.html">Contacto</a></li>
-        <li><a class="menu-1" href="portafolio.html">Portafolio</a></li>
-        <li><a class="menu-1" href="AppPersonalizada.html">Apps a medida</a></li>
-        <li><a class="menu-1" href="appMoviles.html">Apps para móviles</a></li>
-        <li><a class="menu-1" href="equipo.html">Equipo</a></li>
-        <li class="home"><a class="menu-1" href="../index.html">Home</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="movil">
-    <!-- aqui comienza el contenido de la p -->
-    <section class="mainMovil">
-
-            <h1 class="title"> NUESTRA METODOLOGÍA </h1>
-
-          <div class="app1">  
-            
-            <img src="../img/idea.jpg"  alt="foto de un foco">  
-            
-            <h3> Creamos la App que tiene en mente </h3>  
-            <p> Somos especialistas en análisis y desarrollo de aplicaciones a medida, desde la idea más simple a la más
-            compleja. </p>
-          
-          </div> 
-
-
-          <div class="app2">   
-
-            <img src="../img/ux.jpg"  alt="foto ux">  
-            <h3>   Experiencia de Usuario  </h3>
-            <p> Contamos con un equipo de expertos en diseño de experiencia de usuario enfocados en movilidad. </p>
-
-          </div>
-
-          <div class="app3">    
-
-            <img src="../img/actualizar.jpg"  alt="foto actualización">  
-            <h3> Actualización Tecnológica Permanente </h3>
-            <p> Utilizamos la última tecnología disponible y el proceso de aprendizaje es constante, queremos crear las
-            mejores apps.  </p>
-          
-          </div>
-
-
-          <div class="app4">    
-            
-            <img src="../img/metodologia.jpg"  alt="foto metodologia">  
-            <h3> Metodologías Ágiles para gestión de proyectos </h3>
-            <p>  Nos especializamos es aprovechar el tiempo, aplicando SCRUM y otras metodologías ágiles de gestión de
-            proyectos. </p>
-          
-          </div>
-
-          <div class="app5"> 
-
-            <img src="../img/html.jpg"  alt="foto html">
-            <h3> WebApps: HTML5 + CSS + JS </h3>
-            <p> Si buscas un desarrollo único multiplataforma, encontraste el socio IT ideal. Trasladamos toda nuestra
-            experiencia en desarrollo web para tu app. </p>
-
-          </div>
-
-          <div class="app6"> 
-
-            <img src="../img/revision.jpg"  alt="foto check">
-            <h3> Quality Assurance & Quality Control </h3>
-            <p> Mediante diferentes etapas de revisión del código y suites de testing, nos aseguramos de entregar software
-            con altos niveles de calidad. </p>
-
-          </div>
-
-          <div class="app7"> 
-            
-            <img src="../img/app.jpg" alt="foto de publicación">
-            <h3> Publicamos tu App Móvil </h3>
-            <p> Tu app estará disponible en los markets de aplicaciones de Apple, Android o Windows, nosotros nos
-            encargamos de todo. </p>
-
-          </div>
-    </section>   
+  <header>
     
-    <section class="mainProceso">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logoSinFondo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipo.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="appMoviles.html">A Medida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AppPersonalizada.html">Personalizadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portafolio.html">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            
+            </ul>
+
+        </div>
+      </div>
+    </nav>
+    <div class="header3"></div>
+    
+  </header> 
+  <main class="conteiner">
+
+    <!--NUESTRA METODOLOGIA DE TRABAJO-->
+
+    <div class="d-flex justify-content-center ">
+      
+
+        <h1 class="title"> NUESTRA METODOLOGIA </h1>
+
+    </div>
+
+    
+
+  <section class="container">
+
+    <div class="row row-cols-1 row-cols-md-3">
+
+      <!-- card 1 -->
+
+      <div class="col cardM1">
+        <div class="card h-100 border border-white">
+        <i class="bi bi-lightbulb idea card-img-top icon1"></i>  
+
+          <div class="card-body">
+            <h5 class="card-title">Creamos la App que tiene en mente</h5>
+
+            <p class="card-text">Somos especialistas en análisis y desarrollo de aplicaciones a medida, desde la idea más simple a la más
+              compleja. </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="col cardM2">
+        <div class="card h-100 border border-white">
+        <i class="bi bi-file-person card-img-top icon2"></i>  
+
+          <div class="card-body">
+            <h5 class="card-title">Experiencia de Usuario </h5>
+
+            <p class="card-text">Contamos con un equipo de expertos en diseño de experiencia de usuario enfocados en movilidad. </p>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- card 3 -->
+
+      <div class="col cardM3">
+        <div class="card h-100 border border-white">
+        <i class="bi bi-arrow-counterclockwise card-img-top icon3"></i>  
+
+          <div class="card-body">
+            <h5 class="card-title"> Metodologías Ágiles para gestión</h5>
+
+            <p class="card-text">Nos especializamos es aprovechar el tiempo, aplicando SCRUM y otras metodologías ágiles de gestión de
+              proyectos. </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- card 4 -->
+
+      <div class="col cardM4">
+        <div class="card h-100 border border-white">
+        <i class="bi bi-broadcast card-img-top icon4"></i>  
+
+          <div class="card-body">
+            <h5 class="card-title">WebApps: HTML5 + CSS + JS</h5>
+
+            <p class="card-text">Si buscas un desarrollo único multiplataforma, encontraste el socio IT ideal. Trasladamos toda nuestra
+              experiencia en desarrollo web para tu app.  </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- card 5 -->
+
+      <div class="col cardM5">
+        <div class="card h-100 border border-white">
+        <i class="bi bi-card-checklist card-img-top icon5"></i>  
+
+          <div class="card-body">
+            <h5 class="card-title">Quality Assurance & Quality Control</h5>
+
+            <p class="card-text">Mediante diferentes etapas de revisión del código y suites de testing, nos aseguramos de entregar software
+              con altos niveles de calidad. </p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- card 6 -->
+
+      <div class="col cardM6">
+        <div class="card h-100 border border-white">
+        <i class="bi bi-code-square card-img-top icon6"></i>  
+
+          <div class="card-body">
+            <h5 class="card-title"> Publicamos tu App Móvil</h5>
+
+            <p class="card-text">Tu app estará disponible en los markets de aplicaciones de Apple, Android o Windows, nosotros nos
+              encargamos de todo. </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+
+    <!-- fin cards -->
+  </section>
+
+  
+    <section class="container">
 
         <!-- metodología de trabajo  -->
 
-          <div class="title">
-             <h2> Nuestro proceso de diseño </h2>
+      <div class="d-flex justify-content-center ">
+      
+          <h2 class="title"> Nuestro proceso de diseño </h2>
+  
+      </div>
+
+      <div class="card mb-5 border border-white " style="max-width: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-4 mt-3">
+            <img src="../img/diseñando.webp" class="img-fluid rounded-start" alt="diseñando">
           </div>
+          <div class="col-md-8 mt-1">
+            <div class="card-body">
+              <h4 class="card-text">Diseño de apps | Aplicaciones móviles</h4>
+              <p class="card-text">El diseño de apps fue para nosotros desde un primer momento una prioridad. Es la manera que tenemos de
+                transmitir al usuario de la aplicación que pensamos en él, para que la cara visible de la app haga atractivo
+                al código que hay detrás</p>
+              <h4 class="card-text">Diseño de apps | Aplicaciones móviles</h4>
+              <p class="card-text">El diseño de apps fue para nosotros desde un primer momento una prioridad. Es la manera que tenemos de
+              transmitir al usuario de la aplicación que pensamos en él, para que la cara visible de la app haga atractivo
+              al código que hay detrás.</p>
 
-          <div class="diseño">
-
-            <h3>Diseño de apps | Aplicaciones móviles</h3>
-            <p>El diseño de apps fue para nosotros desde un primer momento una prioridad. Es la manera que tenemos de
-            transmitir al usuario de la aplicación que pensamos en él, para que la cara visible de la app haga atractivo
-            al código que hay detrás.</p>
-
+            </div>
           </div>
+        </div>
+      </div>
 
-          <div class="adecuacion">
+      <div class="diseño">
+
+          <div>
 
             <h3>Adecuación del diseño de apps a cada plataforma móvil</h3>
             <p>Los elementos de diseño son diferentes en las distintas plataformas y por lo tanto los usuarios están
@@ -132,7 +221,7 @@
 
           </div>
 
-          <div class="ux-ui">
+          <div>
 
               <h3>UX-UI: diseño de interfaces y experiencia de usuario deben ir de la mano en el diseño de apps</h3>
       
@@ -148,7 +237,7 @@
                 aplicaciones móviles, Posicionamiento ASO para apps y Mantenimiento de aplicaciones móviles.</p>
 
             </div>
-
+      </div>
 
     </section>
     
@@ -180,6 +269,7 @@
           </section>
         
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
