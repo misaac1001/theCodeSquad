@@ -1,101 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../grids/grids.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel = "preconnect" href = "https://fonts.googleapis.com">
-  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-  <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
-  <title> The Code Squad </title>
-  <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../grids/grids.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
+    <title> The Code Squad </title>
+    <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
+  </head>
 
 <body>
   <!-- Aquí comienza la página -->
-  <header class="header">
-    <!-- Encabezado -->
-    <div class="header__logo" >
-      <a href="../index.html"><img src="../img/logoSinFondo.png" alt="logo" width="300rem"></a>
-    </div>
-    <nav>
-    <!-- Barra de navegación -->
-      <ul class="menu">
-        <li><a class="menu-1" href="contacto.html">Contacto</a></li>
-        <li><a class="menu-1" href="portafolio.html">Portafolio</a></li>
-        <li><a class="menu-1" href="AppPersonalizada.html">Apps a medida</a></li>
-        <li><a class="menu-1" href="appMoviles.html">Apps para móviles</a></li>
-        <li><a class="menu-1" href="equipo.html">Equipo</a></li>
-        <li class="home"><a class="menu-1" href="../index.html">Home</a></li>
-      </ul>
+  <header>
+    
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logoSinFondo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipo.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="appMoviles.html">A Medida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AppPersonalizada.html">Personalizadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portafolio.html">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            
+            </ul>
+
+        </div>
+      </div>
     </nav>
+    <div class="header5"></div>
+    
   </header>
   <main>
-    <section class="mainApps">
 
-      <div class="title">   
-        <h1> Colaboraciones que generan valor </h1>
+    <!-- aca comienza el contenido de la página -->
+
+    <section class="container">
+
+    
+
+      <div class="title">
+           <h1> COLABORACIONES QUE GENERAN VALOR </h1>
       </div>
 
-      <div class="app1">
-        <img src="../img/citas.jpg" alt="foto de app de citas">
-        <h2>Citas en línea </h2>
-        <p>In love</p>
-      </div>
 
-      <div class="app2">
-        <img src="../img/entrenar.jpg" alt="foto de app de entrenamiento">
-        <h2>Entrenamiento </h2>
-        <p>Sport</p>
-      </div>
 
-      <div class="app3">
-        <img src="../img/hospital.jpg"  alt="foto de app de hospitales">
-        <h2> Hospitales</h2>
-        <p>Hospital</p>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide carrusel " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner carrusel">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../img/social.jpg"  class="d-block w-100" alt="social medies">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> Social Media </h5>
+              <p>Redes</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../img/diseños.jpg" class="d-block w-100" alt="diseñando">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Design</h5>
+              <p>Apps de diseños</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/citas.jpg" class="d-block w-100" alt="app de citas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>App de citas</h5>
+              <p>In Love</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/comercio.jpg" class="d-block w-100" alt="app de ecommers">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>App para tu negocio</h5>
+              <p>Ecommers</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/personal.jpg" class="d-block w-100" alt="app de ecommers">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>La App que queres, la app que tenes</h5>
+              <button type="button" class="btn btn-secondary">COTIZAR</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+    
+</section>
 
-      <div class="app4">
-        <img src="../img/viajes.jpg"  alt="foto de app de viajes">
-        <h2> Viajes </h2>
-        <p>Travel</p>
-      </div>
+<section>
+
+
+
+
+</section>
+<section class="container">
+
+  <div class="title">
+    <h2>Diseño, Programación y Publicación de The Code Squad Apps </h2>
+  </div>
+
+  <div class="card border border-white">
+    <div class="card-body">
+      <ul>
+        <li> <p> Creamos y publicamos aplicaciones para Android + iOS.</p> </li>
+        <li> <p>Empresa certificada por Google y Apple</p>    </li>
+        <li><p>Soluciones mobile integrales para Empresas, PyMEs y Emprendedores</p>     </li>
+        <li>   <p>Aplicaciones independientes y aplicaciones integradas a sitios y sistemas web</p>  </li>
+      </ul>
+
       
-      <div class="app5">
-        <img src="../img/zapatos.jpg"  alt="foto de app de viajes">
-        <h2> Zapatos </h2>
-        <p>Travel</p>
-      </div>
+      
+      
+      
+   
+    </div>
+    <div class="d-flex justify-content-evenly flex-wrap">
+    <img src="../img/android.png" class="card-img-bottom android" alt="android">
+    <img src="../img/ios.png" class="card-img-bottom ios" alt="ios">
+    </div>
 
-      <div class="app6">
-        <img src="../img/sushi.jpg"  alt="foto de app de viajes">
-        <h2> Sushi </h2>
-        <p>Travel</p>
-      </div>
+  </div>
 
 
-
-    </section>
+</section>
+<!-- 
 
     <section class="mainApps2">
 
       <div class="title">  <h2>Diseño, Programación y Publicación de The Code Squad Apps</h2>  </div>
       
       <div class="items">        
-        <p> Creamos y publicamos aplicaciones para Android + iOS.</p>
-        <p>Empresa certificada por Google y Apple</p>
-        <p>Soluciones mobile integrales para Empresas, PyMEs y Emprendedores</p>
-        <p>Aplicaciones independientes y aplicaciones integradas a sitios y sistemas web</p>
+ 
       </div>
 
-      <div class="imgApps">
-        <img src="../img/available.jpg" width="150px" alt="Available appstore y Google Play">
-      </div>
-     
-    </section>
+
+    </section> -->
   </main>
   <footer >
     <!-- Pie de página -->
@@ -123,6 +203,9 @@
           </section>
         
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

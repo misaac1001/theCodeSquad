@@ -471,6 +471,7 @@ section .cardM6 h5 {
 
 
 /* PERSONALIZADO */
+/* header */
 
 header .header4 {
         background-image: url(../img/fotoFondo4.jpeg);
@@ -482,284 +483,93 @@ header .header4 {
         
 }
 
-/* 
-.mainProceso h2 { 
+/* contenido */
+
+.productos h2{
         text-align: center;
-        font-family: sans-serif;
-        font-size: 60px;
-        text-decoration: wavy;
-        margin-top: 3rem;
-        padding-top: 2rem;
-
-}
- .mainProceso {
-         font-size: 25px;
-         max-height: 1500px;
- }
-
- .mainProceso h3 {
-         font-size: 40px;
-         margin-bottom: 2rem;
-         text-decoration: underline;
- }
-
- .mainProceso .diseño {
-         margin-top: -6rem;
-         margin-bottom: 2rem;
-         margin-right: 4rem;
-         margin-left: 2rem;
- }
- .mainProceso .adecuacion {
-         margin-top: -8rem;
-         margin-bottom: 2rem;
-         margin-right: 4rem;
-         margin-left: 2rem;
- }
- .mainProceso .ux-ui {
-         margin-top: -6rem;
-         margin-bottom: 5rem;
-         margin-right: 4rem;
-         margin-left: 2rem;
- }
-
-
-
-/* personalizada */
-/* 
-.mainPersonalizada {
-        background-color: #fff;
-        color: #101010;
-        line-height: 60px;
-        width: 100%;
-        max-height: 2000px;
 }
 
-.mainPersonalizada .title {
-        text-align: center;
-        font-family: sans-serif;
-        font-size: 30px;
-        text-decoration: wavy;
-        margin-top: 1rem;
-        padding-top: 3rem;
-        margin-bottom: 3rem;
+.productos img{
+        width: 200px;
+        height: 200px;
 }
 
-.mainPersonalizada .title1 {
-        font-size: 25px;
-        margin-top: -7rem;
-        
+.productos .commerce img{
+        padding: 20px;
+}
+.productos .empresas img{
+        padding: 10px;
 }
 
-.mainPersonalizada .title2 {
-        font-size: 25px;
-        margin-top: -7rem;
-        
+.cotizar button {
+        margin-left: 50px;
+  
 }
-
-.mainPersonalizada .title3 {
-        font-size: 25px;
-        margin-top: -7rem;
-        
-}
-
-.mainPersonalizada .img2 {
-        width: 250px;
-}
-
-.mainPersonalizada img {
-        width: 300px;
-
-}
-
-.mainPersonalizada .img1 {
-        margin-top: -18rem;
-
-}
-
-.mainPersonalizada .img2 {
-        margin-top: -20rem;
-
-}
-
-.mainPersonalizada .img3 {
-        margin-top: -18rem;
-
-}
-
-.mainPersonalizada .list1 {
-        text-align: justify;
-        text-decoration: none;
-        list-style: none;
-        margin-top: -17rem;
-}
-
-.mainPersonalizada .list2 {
-        margin-top: -17rem;
-}
-
-.mainPersonalizada .list3 {
-        margin-top: -17rem;
-}
-
-.mainPersonalizada .boton1 {
-        margin-left: -20px;
-        text-align: justify;
-
-} */ */
 
 /* portafolio */
+/* header */
+
+header .header5 {
+        background-image: url(../img/fotoFondo5.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+        opacity: 80%;
+        
+}
 
 /* primera sección  */
 
-.mainApps {
-        background-color: #fff;
-        color: #101010;
-        line-height: 60px;
+.carrusel {
+        max-width: 1000px;
         width: 100%;
-        max-height: 2000px;
+        display: block;
+        margin: auto;
+
 }
 
-.mainApps .title {
-        text-align: center;
-        font-family: sans-serif;
-        font-size: 30px;
-        text-decoration: wavy;
-        margin-top: 1rem;
-        padding-top: 3rem;
-        margin-bottom: 3rem;
+.carousel h5{
+        font-size: 50px;
+        color: #fff;
+        -webkit-text-stroke: 2px black;
 }
-
-.mainApps img {
-        width: 350px;
+.carousel p{
+        color: #ffff;
+        -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 }
-
-.mainApps .app1 {
-        margin-top: 8rem;
-}
-
-.mainApps .app1 h2 {
-        margin-left: 13rem;
-        font-size: 30px;
-        margin-top: -1rem;
-}
-
-.mainApps .app1 p {
-        margin-left: 17rem;
-        font-size: 20px;
-        margin-top: -2rem;
-}
-
-.mainApps .app2 img {
-        margin-top: -1rem;
-}
-
-.mainApps .app2 h2 {
-        margin-left: 5rem;
-        font-size: 30px;
-        margin-top: -1rem;
-}
-
-.mainApps .app2 p {
-        margin-left: 10rem;
-        font-size: 20px;
-        margin-top: -2rem;
-}
-.mainApps .app3 img{
-        margin-top: -1rem;
-        margin-right: 2rem;
-}
-
-.mainApps .app3 h2 {
-        margin-left: 7rem;
-        font-size: 30px;
-        margin-top: -1rem;
-        margin-right: 2rem;
-}
-
-.mainApps .app3 p {
-        margin-left: 10rem;
-        font-size: 20px;
-        margin-top: -2rem;
-        margin-right: 2rem;
-}
-
-.mainApps .app4 {
-        margin-top: 6rem;
-        margin-left: 5rem;
-}
-
-.mainApps .app4 h2 {
-        margin-left: 7rem;
-        font-size: 30px;
-        margin-top: -1rem;
-}
-
-.mainApps .app4 p {
-        margin-left: 8rem;
-        font-size: 20px;
-        margin-top: -2rem;
-}
-
-.mainApps .app5 {
-        margin-top: -2rem;
-}
-
-.mainApps .app5 h2 {
-        margin-left: 8rem;
-        font-size: 30px;
-        margin-top: -1rem;
-}
-
-.mainApps .app5 p {
-        margin-left: 10rem;
-        font-size: 20px;
-        margin-top: -2rem;
-}
-
-.mainApps .app6 {
-        margin-top: -2rem;
-        margin-right: 2rem;
-}
-
-.mainApps .app6 h2 {
-        margin-left: 9rem;
-        font-size: 30px;
-        margin-top: -1rem;
-        margin-right: 2rem;
-}
-
-.mainApps .app6 p {
-        margin-left: 10rem;
-        font-size: 20px;
-        margin-top: -2rem;
-        margin-bottom: 5rem;
-        margin-right: 2rem;
-}
-
 
 /* segunda sección */
 
-.mainApps2 {
-        background-color: #101010;
+.ios {
+        width: 100px;
+        height: 100px;
 }
 
-.mainApps2 .title {
-         text-align: center;
-         font-size: 25px;
-         margin-top: 1rem;
-         margin-bottom: 2rem;
+.android {
+        width: 150px;
+        height: 100px;
 }
-.mainApps2 .items {
-        margin-left: 3rem;
-        margin-bottom: 6rem;
-}
+
 
 /* formulario  */
+/* header */
 
-.center {
-        text-align: center;
+header .header6 {
+        background-image: url(../img/fotoFondo6.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+        opacity: 80%;
+        
 }
 
+.formulario {
+        width: 500px;
+        text-align: center;
+        
+}
 
 
 /* footer */

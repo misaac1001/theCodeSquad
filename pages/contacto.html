@@ -1,79 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../grids/grids.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel = "preconnect" href = "https://fonts.googleapis.com">
-  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-  <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
-  <title> The Code Squad </title>
-  <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../grids/grids.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap "rel =" stylesheet ">
+    <title> The Code Squad </title>
+    <link rel="icon" href="../img/icono.png" type="TECNOLOGIA.JPG">
+  </head>
 
 <body>
   <!-- Aquí comienza la página -->
-  <header class="header">
-    <!-- Encabezado -->
-    <div class="header__logo" >
-      <a href="../index.html"><img src="../img/logoSinFondo.png" alt="logo" width="300rem"></a>
-    </div>
-    <nav>
-    <!-- Barra de navegación -->
-      <ul class="menu">
-        <li><a class="menu-1" href="contacto.html">Contacto</a></li>
-        <li><a class="menu-1" href="portafolio.html">Portafolio</a></li>
-        <li><a class="menu-1" href="AppPersonalizada.html">Apps a medida</a></li>
-        <li><a class="menu-1" href="appMoviles.html">Apps para móviles</a></li>
-        <li><a class="menu-1" href="equipo.html">Equipo</a></li>
-        <li class="home"><a class="menu-1" href="../index.html">Home</a></li>
-      </ul>
+  <header>
+    
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logoSinFondo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipo.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="appMoviles.html">A Medida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AppPersonalizada.html">Personalizadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portafolio.html">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+            </li>
+            
+            </ul>
+
+        </div>
+      </div>
     </nav>
+    <div class="header6"></div>
+    
   </header>
   <main>
-    <section class="center">
-      <form action="gracias.html" target="_blank" enctype="application/x-www-form-urlencoded">
-          <h2 class="section--tittle tittleMovil"> CONTACTO </h2>
-        <!-- formulario de contacto -->
-        <div>
-        <label for="nuestroNombre">NOMBRE:</label>
-        <input type="text" name="nuestroNombre">
-        </div>
-        <div>
-        <label for="nuestroApellido">APELLIDO:</label>
-        <input type="text" name="nuestroApellido">
-        </div>
-        <div>
-        <label for="nuestroEmail">EMAIL:</label>
-        <input type="email">
-        </div>
-  
-        <div>SOY:
-        <select name="tipo" id="">
-          <option value="empresa">Empresa</option>
-          <option value="Persona">Persona</option>
-        </select>
-        </div> 
-        <div>Proyectos:</div> 
-        <div> APP PARA MOVILES 
-        <input type="radio" name="proyecto" value="APP PARA MOVILES">
-        </div>
-        <div>APP PERSONALIZADA
-        <input type="radio" name="proyecto" value="APP PERSONALIZADA">
-        </div>
-        <div>Comentarios</div>
 
-        <textarea name="comentarios" id="" cols="40" rows="10"></textarea>
-        <div>Deseas recibir mas información
-        <input type="checkbox" name="acepta" value="1">
-        </div>
-        <input type="reset">
-        <input type="submit">
-      </form>
-    </section>
+  <section class="container">
+
+      <div class="title">
+           <h1> CONTACTO</h1>
+      </div>
+
+    <form class="formulario container-fluid d-flex flex-column justify-content-center align-items-center"  action="gracias.html" target="_blank" enctype="application/x-www-form-urlencoded">
+
+      <div class="input-group">
+        <span class="input-group-text">NOMBRE Y APELLIDO</span>
+        <input type="text" aria-label="First name" class="form-control">
+        <input type="text" aria-label="Last name" class="form-control">
+      </div>
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">Email</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>SOY</option>
+        <option value="1">Persona</option>
+        <option value="2">Empresa</option>
+      </select>
+      <div>
+        <p>SELECCIONA TIPO DE PROYECTO</p>
+      </div>
+      
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          APP PARA MOVILES
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          APP PERSONALIZADA
+        </label>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          Deseas recibir mas información
+        </label>
+      </div>
+      <div>
+        <button type="button" class="btn btn-secondary btn-sm ">Clean</button>
+        <button type="button" class="btn btn-secondary btn-sm ">Enviar</button>
+
+      </div>
+    </form>
+
+  </section>
 
   </main>
   <footer >
