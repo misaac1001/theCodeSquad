@@ -26,7 +26,20 @@ body{
         margin: 4rem;
         padding: auto;
         text-align: center;
+        animation-duration: 5s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
 }
+
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+     
 
 /* logo header */
 
@@ -46,7 +59,6 @@ header .header1 {
         height: 400px;
         opacity: 80%;
         
-
 }
 
 /* menu */
@@ -56,15 +68,28 @@ header .menu {
         
 }
 
+.animacionLogo {
+        animation-duration: 5s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
+}
 
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 
 /* INDEX  */
 
 .card1 {
         
-        margin: 2rem;
+        margin: auto;
         width: 300px;
-        height: 240px;
+        height: auto;
         text-align: justify;
         border-radius: 10px;
         border-color: black ;
@@ -287,8 +312,19 @@ section .cardM1 {
         margin: 1rem;
         padding: 2rem;
         width: 400px;
-
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
 }
+
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 
 section .cardM1 p {
 
@@ -317,8 +353,19 @@ section .icon2 {
         margin: 1rem;
         padding: 2rem;
         width: 400px;
-
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
 }
+
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 
 section .cardM2 p {
 
@@ -347,8 +394,19 @@ section .icon3 {
         margin: 1rem;
         padding: 2rem;
         width: 400px;
-
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
 }
+
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 
 section .cardM3 p {
 
@@ -377,8 +435,19 @@ section .icon4 {
         margin: 1rem;
         padding: 2rem;
         width: 400px;
-
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
 }
+
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 
 section .cardM4 p {
 
@@ -407,8 +476,19 @@ section .icon5 {
         margin: 1rem;
         padding: 2rem;
         width: 400px;
-
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
 }
+
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 
 section .cardM5 p {
 
@@ -437,8 +517,19 @@ section .icon6 {
         margin: 1rem;
         padding: 2rem;
         width: 400px;
-
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: unset;
 }
+
+@keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 
 section .cardM6 p {
 
